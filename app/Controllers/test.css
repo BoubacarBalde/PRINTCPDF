@@ -1,0 +1,26 @@
+p{
+  color: rgba(255, 187, 0, 0.548);
+  padding: 5px;
+  padding-top: 10px;
+  margin: 10px;
+  inline-size: auto;
+  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left:100px;
+  padding-right: 100px;
+  overflow-x: auto;
+  font-family: Cambria;
+  font-style: italic;
+  height: 2px;
+  box-shadow: 5px 10px 5px black;
+}
+
+/* <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>
+<div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></div>
+<div style="text-align:center;font-weight:bold;">Ministère de l'Enseignement, de la Recherche Scientifique et de l'Innovation</div>
+<div style="text-align:center;font-weight:bold;">Direction Générale de L'Enseignement Supérieur</div> */

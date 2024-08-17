@@ -1,0 +1,1138 @@
+CRITICAL - 2024-08-16 14:26:04 --> ParseError: syntax error, unexpected variable "$pdf"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\printTCPDF\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 14:26:04 --> ParseError: syntax error, unexpected variable "$pdf"
+[Method: GET, Route: print]
+in APPPATH\Controllers\Home.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\printTCPDF\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 15:44:10 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: print]
+in APPPATH\Views\v_printpdf.php on line 6.
+ 1 APPPATH\Views\v_printpdf.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\laragon\\www\\printTCPDF\\app\\Views\\v_printpdf.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\printTCPDF\\app\\Views\\v_printpdf.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_printpdf', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('v_printpdf')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 17:09:28 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 43, false, 57.334855555555556)
+ 3 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<table>
+  <tr>
+    <th style="width: 20%;">
+      <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+    </th>
+    <th style="width: 80%;">
+      <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>
+      <div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></div>
+      <div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div>
+      <div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div>
+    </th>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <span style="font-weight: bold; font-size:xx-large;font-style:normal">UNIVERSITE BARACK OBAMA</span>
+  </tr>
+</table>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 17:09:31 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 43, false, 57.334855555555556)
+ 3 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<table>
+  <tr>
+    <th style="width: 20%;">
+      <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+    </th>
+    <th style="width: 80%;">
+      <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>
+      <div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></div>
+      <div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div>
+      <div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div>
+    </th>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <span style="font-weight: bold; font-size:xx-large;font-style:normal">UNIVERSITE BARACK OBAMA</span>
+  </tr>
+</table>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 17:09:32 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 43, false, 57.334855555555556)
+ 3 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<table>
+  <tr>
+    <th style="width: 20%;">
+      <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+    </th>
+    <th style="width: 80%;">
+      <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>
+      <div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></div>
+      <div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div>
+      <div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div>
+    </th>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <span style="font-weight: bold; font-size:xx-large;font-style:normal">UNIVERSITE BARACK OBAMA</span>
+  </tr>
+</table>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 17:16:08 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 3, true, 17.056805999999998)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray><tr style="font-size:20px; font-weight:bold; text-align:center">République de guinée</tr><tr style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></tr><tr style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</tr><tr style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</tr><marker style="font-size:0"/>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(151.99811555555553, 0, '<cssarray>[]</cssarray><tr style="font-size:20px; font-weight:bold; text-align:center">République de guinée</tr><tr style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></tr><tr style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</tr><tr style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</tr><marker style="font-size:0"/>', false, '', false, 2, 48.00077888888888, 10.001249999999999, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<table>
+  <tr>
+    <th style="width: 20%;">
+      <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+    </th>
+    <th style="width: 80%;">
+      <tr style="font-size:20px; font-weight:bold; text-align:center">République de guinée</tr>
+      <tr style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></tr>
+      <tr style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</tr>
+      <tr style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</tr>
+    </th>
+  </tr>
+</table><br><br>
+
+<table>
+  <tr>
+    <th style="width: 100%; text-align:center; font-weight: bold; font-size:xx-large;font-style:normal">
+      UNIVERSITE BARACK OBAMA
+    </th>
+  </tr>
+</table>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 17:16:10 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 3, true, 17.056805999999998)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray><tr style="font-size:20px; font-weight:bold; text-align:center">République de guinée</tr><tr style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></tr><tr style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</tr><tr style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</tr><marker style="font-size:0"/>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(151.99811555555553, 0, '<cssarray>[]</cssarray><tr style="font-size:20px; font-weight:bold; text-align:center">République de guinée</tr><tr style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></tr><tr style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</tr><tr style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</tr><marker style="font-size:0"/>', false, '', false, 2, 48.00077888888888, 10.001249999999999, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<table>
+  <tr>
+    <th style="width: 20%;">
+      <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+    </th>
+    <th style="width: 80%;">
+      <tr style="font-size:20px; font-weight:bold; text-align:center">République de guinée</tr>
+      <tr style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></tr>
+      <tr style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</tr>
+      <tr style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</tr>
+    </th>
+  </tr>
+</table><br><br>
+
+<table>
+  <tr>
+    <th style="width: 100%; text-align:center; font-weight: bold; font-size:xx-large;font-style:normal">
+      UNIVERSITE BARACK OBAMA
+    </th>
+  </tr>
+</table>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 18:03:27 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 59, false, 99.07763755555555)
+ 3 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<table style=" margin: 0 auto;">
+  <tr>
+    <th style="width: 20%;">
+      <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+    </th>
+    <th style="width: 80%;">
+      <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>
+      <div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></div>
+      <div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div>
+      <div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div>
+    </th>
+  </tr>
+</table><br><br>
+
+<!-- Titre  -->
+<table style="margin:0 auto;">
+  <tr>
+    <th style="width:100%; text-align:center; font-weight:bold; font-size:xx-large; font-style:normal">
+      UNIVERSITE BARACK OBAMA
+    </th>
+  </tr>
+  <tr>
+    <th style="background-color: black;"></th>
+  </tr>
+  <tr>
+    <!-- Sous titre  -->
+    <div style="margin:auto; text-align:center">
+      <p style="text-decoration: underline;">RELEVE ANNUEL DE NOTES</p>
+    </div>
+  </tr>
+</table>
+
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 21:42:38 --> ErrorException: Undefined array key "trids"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19743.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19743): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "trids"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19743)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 520, false, 229.25263388888874)
+ 3 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<table style=" margin: 0 auto;">
+  <tr>
+    <th style="width: 20%;">
+      <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+    </th>
+    <th style="width: 80%;">
+      <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>
+      <div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></div>
+      <div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div>
+      <div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div>
+    </th>
+  </tr>
+</table><br><br>
+
+<!-- Titre, sous titre  -->
+<table style="margin:0 auto;">
+  <tr>
+    <th style="width:100%; text-align:center; font-weight:bold; font-size:xx-large; font-style:normal">
+      UNIVERSITE BARACK OBAMA
+    </th>
+  </tr>
+  <tr>
+    <td style="background-color: black;"></td>
+  </tr><br>
+  <tr>
+    <th style="text-decoration: underline; text-align:center">RELEVE ANNUEL DE NOTES</th>
+  </tr>
+</table>
+
+<table style="margin:0 auto;">
+ <tr>
+    <th style="width: 50%;">
+      <p style="font-weight: bold;">DEPARTEMENT: <span>GENIE INFROMATIQUE</span></p>
+      <p style="font-weight: bold;">MATRICULE: <span>B1121 92GI</span></p>
+      <p style="font-weight: bold;">NOM: <span>BALDE</span></p>
+      <p style="font-weight: bold;">PRENOM: <span>BOUBACAR</span></p>
+    </th>
+    <th style="width: 50%;">
+      <p style="font-weight: bold;">NIVEAU: <span>LICENCE 4</span></p>
+      <p style="font-weight: bold;">ANNEE UNIVERSITAIRE: <span>2023-2024</span></p>
+    </th>
+ </tr>
+</table><br><br>
+
+<table style="margin:0 auto; border-collapse: collapse; font-size: 13px;text-align:left;">
+  <thead>
+    <tr>
+      <th width="5%"  rowspan="2" style="border: 1px solid #0c0202">N°</th>
+      <th width="40%" rowspan="2" style="border: 1px solid #0c0202">MATIERES</th>
+      <th width="12%" rowspan="2" style="border: 1px solid #0c0202">SEMESTRE</th>
+      <th width="10%" rowspan="2" style="border: 1px solid #0c0202">CREDITS</th>
+      <th width="8%"  rowspan="2" style="border: 1px solid #0c0202">NOTES</th>
+      <th width="26%" style="text-align:center;border: 1px solid #0c0202" colspan="2">VALEUR</th> <!-- Fusion des colonnes 6 et 7 -->
+    </tr>
+    <tr>
+      <th width="13%" style="border: 1px solid #0c0202">LITTERALE</th>
+      <th width="13%" style="border: 1px solid #0c0202">NUMERIQUE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="5%"  style="padding:12px; border: 1px solid #0c0202">1</td>
+      <td width="40%" style="padding:12px; border: 1px solid #0c0202">WINDEV</td>
+      <td width="12%" style="padding:12px; border: 1px solid #0c0202; text-align:center">5</td>
+      <td width="10%" style="padding:12px; border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="8%"  style="padding:12px; border: 1px solid #0c0202; text-align:center">5</td>
+      <td width="13%" style="padding:12px; border: 1px solid #0c0202; text-align:center">D</td>
+      <td width="13%" style="padding:12px; border: 1px solid #0c0202; text-align:center">1</td>
+    </tr>
+    <tr>
+      <td width="5%"  style="padding:12px;border: 1px solid #0c0202">2</td>
+      <td width="40%" style="padding:12px;border: 1px solid #0c0202">VB.NET</td>
+      <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+      <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+      <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">C</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1</td>
+    </tr>
+    <tr>
+      <td width="5%"  style="padding:12px;border: 1px solid #0c0202">3</td>
+      <td width="40%" style="padding:12px;border: 1px solid #0c0202">PYTHON</td>
+      <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+      <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">9</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">0</td>
+    </tr>
+    <tr>
+      <td width="5%"  style="padding:12px;border: 1px solid #0c0202">4</td>
+      <td width="40%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 1</td>
+      <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5</td>
+      <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">9</td>
+      <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+    </tr>
+    <tr>
+      <td width="5%"  style="padding:12px;border: 1px solid #0c0202">5</td>
+      <td width="40%" style="padding:12px;border: 1px solid #0c0202">PHP/MYSQL 1</td>
+      <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5</td>
+      <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+    </tr>
+    <tr>
+      <td width="5%"  style="padding:12px;border: 1px solid #0c0202">6</td>
+      <td width="40%" style="padding:12px;border: 1px solid #0c0202">DROIT DE L\'INFROMATIQUE</td>
+      <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8.71</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">D</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1</td>
+    </tr>
+    <tr>
+      <td width="5%"  style="padding:12px;border: 1px solid #0c0202">7</td>
+      <td width="40%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 2</td>
+      <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3</td>
+    </tr>
+    <tr>
+      <td width="5%"  style="padding:12px;border: 1px solid #0c0202">8</td>
+      <td width="40%" style="padding:12px;border: 1px solid #0c0202">VB.NET 2</td>
+      <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+    </tr>
+    <tr>
+      <td width="5%"  style="padding:12px;border: 1px solid #0c0202">9</td>
+      <td width="40%" style="padding:12px;border: 1px solid #0c0202">MACHINE LEARNING</td>
+      <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7.18</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3</td>
+    </tr>
+    <tr>
+      <td width="5%"  style="padding:12px;border: 1px solid #0c0202">10</td>
+      <td width="40%" style="padding:12px;border: 1px solid #0c0202">WINDEV MOBILE</td>
+      <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+      <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7.79</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+      <td width="13%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+        <th colspan="5" style="padding:12px;border: 1px solid #0c0202;text-align:center">MOYENNE CUMULATIVE</th>
+        <th style="padding:12px;border: 1px solid #0c0202; text-align:center">C</th>
+        <th style="padding:12px;border: 1px solid #0c0202; text-align:center">2.3</th>
+      </tr>
+  </tfoot>
+</table>
+
+ <!-- Legende -->
+ <table style="margin:0 auto">
+   <tr>
+      <td style="font-weight: bold;">
+        <div>Legende:</div>
+        <div>A: EXCELLENT = 4&nbsp;&nbsp;&nbsp;B:&nbsp;&nbsp;&nbsp;TRES BIEN = 3&nbsp;&nbsp;&nbsp;C:  BIEN = 2</div>
+        <div>D: PASSABLE = 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E:&nbsp;&nbsp;&nbsp;&nbsp;FAIBLE = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F:  ECHEC = 0</div>
+      </td>
+   </tr>
+   <tr>
+      <td width="50%"></td>
+      <td width="50%" style="text-align:right; font-style:italic;"> Conakry, le 16/08/2024</td>
+   </tr>
+ </table><br><br>
+
+ <table style="margin:0 auto">
+    <tr>
+      <td width="30%" style="font-style:italic;">Le chef de Département</td>
+      <td width="30%"></td>
+      <td width="40%" style="text-align:right;font-style:italic;">Le chef de service de la scolarité</td>
+    </tr>
+ </table><br><br>
+
+ <table style="margin:0 auto">
+  <tr>
+    <td width="30%" style="font-style:italic;">M. Amadou Tidiane BAH</td>
+    <td width="30%"></td>
+    <td width="40%" style="text-align:right;font-style:italic;">M. Ousmane DIABY/td>
+  </tr>
+</table>
+
+
+
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 22:57:35 --> ErrorException: Undefined array key "cols"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17119.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 17119)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid black;">&nbsp; <table style=" margin: 0 auto;"><tr><th style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></th><th style="width: 80%;">&nbsp; <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div><div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></div><div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div><div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div><marker style="font-size:0"/></th></tr></table><br><br>&nbsp; <table style="margin:0 auto;"><tr><th style="width:100%; text-align:center; font-weight:bold; font-size:xx-large; font-style:normal">&nbsp; UNIVERSITE BARACK OBAMA<marker style="font-size:0"/></th></tr><tr><td style="background-color: black;"><marker style="font-size:0"/></td></tr><br><tr><th style="text-decoration: underline; text-align:center">RELEVE ANNUEL DE NOTES<marker style="font-size:0"/></th></tr></table><table style="margin:0 auto;"><tr><th style="width: 50%;">&nbsp; <p style="font-weight: bold;">DEPARTEMENT: <span>GENIE INFROMATIQUE</span></p><p style="font-weight: bold;">MATRICULE: <span>B1121 92GI</span></p><p style="font-weight: bold;">NOM: <span>BALDE</span></p><p style="font-weight: bold;">PRENOM: <span>BOUBACAR</span></p><marker style="font-size:0"/></th><th style="width: 50%;">&nbsp; <p style="font-weight: bold;">NIVEAU: <span>LICENCE 4</span></p><p style="font-weight: bold;">ANNEE UNIVERSITAIRE: <span>2023-2024</span></p><marker style="font-size:0"/></th></tr></table><br><br>&nbsp; <table style="margin:0 auto; border-collapse: collapse; font-size: 13px;text-align:left;"><thead><th width="4%" rowspan="2" style="border: 1px solid #0c0202">N°<marker style="font-size:0"/></th><th width="39%" rowspan="2" style="border: 1px solid #0c0202">MATIERES<marker style="font-size:0"/></th><th width="11%" rowspan="2" style="border: 1px solid #0c0202">SEMESTRE<marker style="font-size:0"/></th><th width="9%" rowspan="2" style="border: 1px solid #0c0202">CREDITS<marker style="font-size:0"/></th><th width="7%" rowspan="2" style="border: 1px solid #0c0202">NOTES<marker style="font-size:0"/></th><th width="22%" style="text-align:center;border: 1px solid #0c0202" colspan="2">VALEUR<marker style="font-size:0"/></th>')
+ 3 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+  <div style="border: 1px solid black;">
+      <table style=" margin: 0 auto;">
+          <tr>
+            <th style="width: 20%;">
+              <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+            </th>
+            <th style="width: 80%;">
+              <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>
+              <div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></div>
+              <div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div>
+              <div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div>
+            </th>
+          </tr>
+        </table><br><br>
+        
+        <!-- Titre, sous titre  -->
+        <table style="margin:0 auto;">
+          <tr>
+            <th style="width:100%; text-align:center; font-weight:bold; font-size:xx-large; font-style:normal">
+              UNIVERSITE BARACK OBAMA
+            </th>
+          </tr>
+          <tr>
+            <td style="background-color: black;"></td>
+          </tr><br>
+          <tr>
+            <th style="text-decoration: underline; text-align:center">RELEVE ANNUEL DE NOTES</th>
+          </tr>
+        </table>
+        
+        <table style="margin:0 auto;">
+         <tr>
+            <th style="width: 50%;">
+              <p style="font-weight: bold;">DEPARTEMENT: <span>GENIE INFROMATIQUE</span></p>
+              <p style="font-weight: bold;">MATRICULE: <span>B1121 92GI</span></p>
+              <p style="font-weight: bold;">NOM: <span>BALDE</span></p>
+              <p style="font-weight: bold;">PRENOM: <span>BOUBACAR</span></p>
+            </th>
+            <th style="width: 50%;">
+              <p style="font-weight: bold;">NIVEAU: <span>LICENCE 4</span></p>
+              <p style="font-weight: bold;">ANNEE UNIVERSITAIRE: <span>2023-2024</span></p>
+            </th>
+         </tr>
+        </table><br><br>
+        
+        <table style="margin:0 auto; border-collapse: collapse; font-size: 13px;text-align:left;">
+          <thead>
+            <tr2>
+              <th width="4%"  rowspan="2" style="border: 1px solid #0c0202">N°</th>
+              <th width="39%" rowspan="2" style="border: 1px solid #0c0202">MATIERES</th>
+              <th width="11%" rowspan="2" style="border: 1px solid #0c0202">SEMESTRE</th>
+              <th width="9%" rowspan="2" style="border: 1px solid #0c0202">CREDITS</th>
+              <th width="7%"  rowspan="2" style="border: 1px solid #0c0202">NOTES</th>
+              <th width="22%" style="text-align:center;border: 1px solid #0c0202" colspan="2">VALEUR</th> <!-- Fusion des colonnes 6 et 7 -->
+            </tr2
+            <tr>
+              <th width="13%" style="border: 1px solid #0c0202">LITTERALE</th>
+              <th width="13%" style="border: 1px solid #0c0202">NUMERIQUE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td width="4%"  style="padding:12px; border: 1px solid #0c0202">1</td>
+              <td width="39%" style="padding:12px; border: 1px solid #0c0202">WINDEV</td>
+              <td width="11%" style="padding:12px; border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="9%" style="padding:12px; border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="7%"  style="padding:12px; border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="12%" style="padding:12px; border: 1px solid #0c0202; text-align:center">D</td>
+              <td width="12%" style="padding:12px; border: 1px solid #0c0202; text-align:center">1</td>
+            </tr>
+            <tr>
+              <td width="5%"  style="padding:12px;border: 1px solid #0c0202">2</td>
+              <td width="39%" style="padding:12px;border: 1px solid #0c0202">VB.NET</td>
+              <td width="11%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="9%" style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+              <td width="7%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">C</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1</td>
+            </tr>
+            <tr>
+              <td width="5%"  style="padding:12px;border: 1px solid #0c0202">3</td>
+              <td width="39%" style="padding:12px;border: 1px solid #0c0202">PYTHON</td>
+              <td width="11%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="9%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="7%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">9</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">0</td>
+            </tr>
+            <tr>
+              <td width="5%"  style="padding:12px;border: 1px solid #0c0202">4</td>
+              <td width="39%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 1</td>
+              <td width="11%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="9%" style="padding:12px;border: 1px solid #0c0202; text-align:center">9</td>
+              <td width="7%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+            <tr>
+              <td width="5%"  style="padding:12px;border: 1px solid #0c0202">5</td>
+              <td width="39%" style="padding:12px;border: 1px solid #0c0202">PHP/MYSQL 1</td>
+              <td width="11%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="9%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="7%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+            <tr>
+              <td width="5%"  style="padding:12px;border: 1px solid #0c0202">6</td>
+              <td width="39%" style="padding:12px;border: 1px solid #0c0202">DROIT DE L\'INFROMATIQUE</td>
+              <td width="11%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="9%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="7%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8.71</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">D</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1</td>
+            </tr>
+            <tr>
+              <td width="5%"  style="padding:12px;border: 1px solid #0c0202">7</td>
+              <td width="39%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 2</td>
+              <td width="11%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="9%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="7%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3</td>
+            </tr>
+            <tr>
+              <td width="5%"  style="padding:12px;border: 1px solid #0c0202">8</td>
+              <td width="39%" style="padding:12px;border: 1px solid #0c0202">VB.NET 2</td>
+              <td width="11%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="9%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="7%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+            <tr>
+              <td width="5%"  style="padding:12px;border: 1px solid #0c0202">9</td>
+              <td width="39%" style="padding:12px;border: 1px solid #0c0202">MACHINE LEARNING</td>
+              <td width="11%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="9%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="7%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7.18</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3</td>
+            </tr>
+            <tr>
+              <td width="5%"  style="padding:12px;border: 1px solid #0c0202">10</td>
+              <td width="39%" style="padding:12px;border: 1px solid #0c0202">WINDEV MOBILE</td>
+              <td width="11%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="9%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="7%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7.79</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+                <th colspan="5" style="padding:12px;border: 1px solid #0c0202;text-align:center">MOYENNE CUMULATIVE</th>
+                <th style="padding:12px;border: 1px solid #0c0202; text-align:center">C</th>
+                <th style="padding:12px;border: 1px solid #0c0202; text-align:center">2.3</th>
+              </tr>
+          </tfoot>
+        </table>
+        
+         <!-- Legende -->
+         <table style="margin:0 auto">
+           <tr>
+              <td width="100%" style="font-weight: bold;">
+                <div>Legende:</div>
+                <div>A: EXCELLENT = 4&nbsp;&nbsp;&nbsp;B:&nbsp;&nbsp;&nbsp;TRES BIEN = 3&nbsp;&nbsp;&nbsp;C:  BIEN = 2</div>
+                <div>D: PASSABLE = 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E:&nbsp;&nbsp;&nbsp;&nbsp;FAIBLE = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F:  ECHEC = 0</div>
+              </td>
+           </tr>
+           <tr>
+              <td width="50%"></td>
+              <td width="50%" style="text-align:right; font-style:italic;"> Conakry, le 16/08/2024</td>
+           </tr>
+         </table><br><br>
+        
+        <table style="margin:0 auto">
+            <tr>
+              <td width="30%" style="font-style:italic;">Le chef de Département</td>
+              <td width="30%"></td>
+              <td width="39%" style="text-align:right;font-style:italic;">Le chef de service de la scolarité</td>
+            </tr>
+         </table><br><br><br><br><br><br>
+        
+         <table style="margin:0 auto">
+          <tr>
+            <td width="30%" style="font-style:italic;">M. Amadou Tidiane BAH</td>
+            <td width="30%"></td>
+            <td width="39%" style="text-align:right;font-style:italic;">M. Ousmane DIABY</td>
+          </tr>
+        </table>
+        
+        <!-- Footer  -->
+        <div style="width:auto;height:3px;background-color:black;"></div>
+        <table style="margin:0 auto; text-align: center;">
+           <tr>
+             <td style="font-style: italic;">Université BARACK OBAMA  Sonfonia C/RATOMA BP: 953</td>
+           </tr>
+           <tr>
+            <td style="font-style: italic;">Email: univobamaguinea@gmail.com</td>
+          </tr>
+          <tr>
+            <td style="font-style: italic;">web: http//wwww.univ-barackobama.com</td>
+          </tr>
+          <tr>
+            <td style="font-style: italic;">Tel: 622-266-325/666-72-53-63</td>
+          </tr>
+        </table>
+  </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 23:03:36 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 55, false, 81.43874955555555)
+ 3 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+  <div style="border: 1px solid black;">
+      <table style=" margin: 0 auto;">
+          <tr>
+            <th style="width: 20%;">
+              <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+            </th>
+            <th style="width: 80%;">
+              <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>
+              <div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></div>
+              <div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div>
+              <div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div>
+            </th>
+          </tr>
+        </table><br><br>
+        
+        <!-- Titre, sous titre  -->
+        <table style="margin:0 auto;">
+          <tr>
+            <th style="width:100%; text-align:center; font-weight:bold; font-size:xx-large; font-style:normal">
+              UNIVERSITE BARACK OBAMA
+            </th>
+          </tr>
+          <tr>
+            <div style="width:auto;height:3px;background-color:black;"></div>
+          </tr><br>
+          <tr>
+            <th style="text-decoration: underline; text-align:center">RELEVE ANNUEL DE NOTES</th>
+          </tr>
+        </table>
+        
+        <table style="margin:0 auto;">
+         <tr>
+            <th style="width: 50%;">
+              <p style="font-weight: bold;">DEPARTEMENT: <span>GENIE INFROMATIQUE</span></p>
+              <p style="font-weight: bold;">MATRICULE: <span>B1121 92GI</span></p>
+              <p style="font-weight: bold;">NOM: <span>BALDE</span></p>
+              <p style="font-weight: bold;">PRENOM: <span>BOUBACAR</span></p>
+            </th>
+            <th style="width: 50%;">
+              <p style="font-weight: bold;">NIVEAU: <span>LICENCE 4</span></p>
+              <p style="font-weight: bold;">ANNEE UNIVERSITAIRE: <span>2023-2024</span></p>
+            </th>
+         </tr>
+        </table><br><br>
+        
+        <table style="margin:0 auto; border-collapse: collapse; font-size: 13px;text-align:left;">
+          <thead>
+            <tr>
+              <th width="4%"  rowspan="2" style="border: 1px solid #0c0202">N°</th>
+              <th width="37%" rowspan="2" style="border: 1px solid #0c0202">MATIERES</th>
+              <th width="12%" rowspan="2" style="border: 1px solid #0c0202">SEMESTRE</th>
+              <th width="10%" rowspan="2" style="border: 1px solid #0c0202">CREDITS</th>
+              <th width="8%"  rowspan="2" style="border: 1px solid #0c0202">NOTES</th>
+              <th width="28%" style="text-align:center;border: 1px solid #0c0202" colspan="2">VALEUR</th> <!-- Fusion des colonnes 6 et 7 -->
+            </tr>
+            <tr>
+              <th width="14%" style="border: 1px solid #0c0202">LITTERALE</th>
+              <th width="14%" style="border: 1px solid #0c0202">NUMERIQUE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td width="4%"  style="padding:12px; border: 1px solid #0c0202">1</td>
+              <td width="37%" style="padding:12px; border: 1px solid #0c0202">WINDEV</td>
+              <td width="12%" style="padding:12px; border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="10%" style="padding:12px; border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px; border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="14%" style="padding:12px; border: 1px solid #0c0202; text-align:center">D</td>
+              <td width="14%" style="padding:12px; border: 1px solid #0c0202; text-align:center">1</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">2</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">VB.NET</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">C</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">3</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">PYTHON</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">9</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">0</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">4</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 1</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">9</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">5</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">PHP/MYSQL 1</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">6</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">DROIT DE L\'INFROMATIQUE</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8.71</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">D</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">7</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 2</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">8</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">VB.NET 2</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">9</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">MACHINE LEARNING</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7.18</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">10</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">WINDEV MOBILE</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7.79</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+                <th colspan="5" style="padding:12px;border: 1px solid #0c0202;text-align:center">MOYENNE CUMULATIVE</th>
+                <th style="padding:12px;border: 1px solid #0c0202; text-align:center">C</th>
+                <th style="padding:12px;border: 1px solid #0c0202; text-align:center">2.3</th>
+              </tr>
+          </tfoot>
+        </table>
+        
+         <!-- Legende -->
+         <table style="margin:0 auto">
+           <tr>
+              <td width="100%" style="font-weight: bold;">
+                <div>Legende:</div>
+                <div>A: EXCELLENT = 4&nbsp;&nbsp;&nbsp;B:&nbsp;&nbsp;&nbsp;TRES BIEN = 3&nbsp;&nbsp;&nbsp;C:  BIEN = 2</div>
+                <div>D: PASSABLE = 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E:&nbsp;&nbsp;&nbsp;&nbsp;FAIBLE = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F:  ECHEC = 0</div>
+              </td>
+           </tr>
+           <tr>
+              <td width="50%"></td>
+              <td width="50%" style="text-align:right; font-style:italic;"> Conakry, le 16/08/2024</td>
+           </tr>
+         </table><br><br>
+        
+        <table style="margin:0 auto">
+            <tr>
+              <td width="30%" style="font-style:italic;">Le chef de Département</td>
+              <td width="30%"></td>
+              <td width="37%" style="text-align:right;font-style:italic;">Le chef de service de la scolarité</td>
+            </tr>
+         </table><br><br><br><br><br><br>
+        
+         <table style="margin:0 auto">
+          <tr>
+            <td width="30%" style="font-style:italic;">M. Amadou Tidiane BAH</td>
+            <td width="30%"></td>
+            <td width="37%" style="text-align:right;font-style:italic;">M. Ousmane DIABY</td>
+          </tr>
+        </table>
+        
+        <!-- Footer  -->
+        <div style="width:auto;height:3px;background-color:black;"></div>
+        <table style="margin:0 auto; text-align: center;">
+           <tr>
+             <td style="font-style: italic;">Université BARACK OBAMA  Sonfonia C/RATOMA BP: 953</td>
+           </tr>
+           <tr>
+            <td style="font-style: italic;">Email: univobamaguinea@gmail.com</td>
+          </tr>
+          <tr>
+            <td style="font-style: italic;">web: http//wwww.univ-barackobama.com</td>
+          </tr>
+          <tr>
+            <td style="font-style: italic;">Tel: 622-266-325/666-72-53-63</td>
+          </tr>
+        </table>
+  </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-16 23:06:26 --> ErrorException: Undefined array key "cols"
+[Method: GET, Route: print]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16647.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16647): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16647)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid black;">&nbsp; <table style=" margin: 0 auto;"><tr><th style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></th><th style="width: 80%;">&nbsp; <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div><div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></div><div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div><div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div><marker style="font-size:0"/></th></tr></table><br><br>&nbsp; <div style="width:100%; text-align:center; font-weight:bold; font-size:xx-large; font-style:normal">&nbsp; UNIVERSITE BARACK OBAMA &nbsp;</div><div style="width:auto;height:3px;background-color:black;"></div></tr><br><th style="text-decoration: underline; text-align:center">RELEVE ANNUEL DE NOTES<marker style="font-size:0"/></th><table style="margin:0 auto;"><tr><th style="width: 50%;">&nbsp; <p style="font-weight: bold;">DEPARTEMENT: <span>GENIE INFROMATIQUE</span></p><p style="font-weight: bold;">MATRICULE: <span>B1121 92GI</span></p><p style="font-weight: bold;">NOM: <span>BALDE</span></p><p style="font-weight: bold;">PRENOM: <span>BOUBACAR</span></p><marker style="font-size:0"/></th><th style="width: 50%;">&nbsp; <p style="font-weight: bold;">NIVEAU: <span>LICENCE 4</span></p><p style="font-weight: bold;">ANNEE UNIVERSITAIRE: <span>2023-2024</span></p><marker style="font-size:0"/></th></tr></table><br><br>&nbsp; <table style="margin:0 auto; border-collapse: collapse; font-size: 13px;text-align:left;"><thead><tr><th width="4%" rowspan="2" style="border: 1px solid #0c0202">N°<marker style="font-size:0"/></th><th width="37%" rowspan="2" style="border: 1px solid #0c0202">MATIERES<marker style="font-size:0"/></th><th width="12%" rowspan="2" style="border: 1px solid #0c0202">SEMESTRE<marker style="font-size:0"/></th><th width="10%" rowspan="2" style="border: 1px solid #0c0202">CREDITS<marker style="font-size:0"/></th><th width="8%" rowspan="2" style="border: 1px solid #0c0202">NOTES<marker style="font-size:0"/></th><th width="28%" style="text-align:center;border: 1px solid #0c0202" colspan="2">VALEUR<marker style="font-size:0"/></th></tr><tr><th width="14%" style="border: 1px solid #0c0202">LITTERALE<marker style="font-size:0"/></th><th width="14%" style="border: 1px solid #0c0202">NUMERIQUE<marker style="font-size:0"/></th></tr></thead><tr><td width="4%" style="padding:12px; border: 1px solid #0c0202">1<marker style="font-size:0"/></td><td width="37%" style="padding:12px; border: 1px solid #0c0202">WINDEV<marker style="font-size:0"/></td><td width="12%" style="padding:12px; border: 1px solid #0c0202; text-align:center">5<marker style="font-size:0"/></td><td width="10%" style="padding:12px; border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="8%" style="padding:12px; border: 1px solid #0c0202; text-align:center">5<marker style="font-size:0"/></td><td width="14%" style="padding:12px; border: 1px solid #0c0202; text-align:center">D<marker style="font-size:0"/></td><td width="14%" style="padding:12px; border: 1px solid #0c0202; text-align:center">1<marker style="font-size:0"/></td></tr><tr><td width="4%" style="padding:12px;border: 1px solid #0c0202">2<marker style="font-size:0"/></td><td width="37%" style="padding:12px;border: 1px solid #0c0202">VB.NET<marker style="font-size:0"/></td><td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7<marker style="font-size:0"/></td><td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">8<marker style="font-size:0"/></td><td width="8%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">C<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1<marker style="font-size:0"/></td></tr><tr><td width="4%" style="padding:12px;border: 1px solid #0c0202">3<marker style="font-size:0"/></td><td width="37%" style="padding:12px;border: 1px solid #0c0202">PYTHON<marker style="font-size:0"/></td><td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7<marker style="font-size:0"/></td><td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="8%" style="padding:12px;border: 1px solid #0c0202; text-align:center">9<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">0<marker style="font-size:0"/></td></tr><tr><td width="4%" style="padding:12px;border: 1px solid #0c0202">4<marker style="font-size:0"/></td><td width="37%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 1<marker style="font-size:0"/></td><td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5<marker style="font-size:0"/></td><td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">9<marker style="font-size:0"/></td><td width="8%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4<marker style="font-size:0"/></td></tr><tr><td width="4%" style="padding:12px;border: 1px solid #0c0202">5<marker style="font-size:0"/></td><td width="37%" style="padding:12px;border: 1px solid #0c0202">PHP/MYSQL 1<marker style="font-size:0"/></td><td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5<marker style="font-size:0"/></td><td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="8%" style="padding:12px;border: 1px solid #0c0202; text-align:center">8<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4<marker style="font-size:0"/></td></tr><tr><td width="4%" style="padding:12px;border: 1px solid #0c0202">6<marker style="font-size:0"/></td><td width="37%" style="padding:12px;border: 1px solid #0c0202">DROIT DE L\'INFROMATIQUE<marker style="font-size:0"/></td><td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="8%" style="padding:12px;border: 1px solid #0c0202; text-align:center">8.71<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">D<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1<marker style="font-size:0"/></td></tr><tr><td width="4%" style="padding:12px;border: 1px solid #0c0202">7<marker style="font-size:0"/></td><td width="37%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 2<marker style="font-size:0"/></td><td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="8%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3<marker style="font-size:0"/></td></tr><tr><td width="4%" style="padding:12px;border: 1px solid #0c0202">8<marker style="font-size:0"/></td><td width="37%" style="padding:12px;border: 1px solid #0c0202">VB.NET 2<marker style="font-size:0"/></td><td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="8%" style="padding:12px;border: 1px solid #0c0202; text-align:center">8<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4<marker style="font-size:0"/></td></tr><tr><td width="4%" style="padding:12px;border: 1px solid #0c0202">9<marker style="font-size:0"/></td><td width="37%" style="padding:12px;border: 1px solid #0c0202">MACHINE LEARNING<marker style="font-size:0"/></td><td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="8%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7.18<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3<marker style="font-size:0"/></td></tr><tr><td width="4%" style="padding:12px;border: 1px solid #0c0202">10<marker style="font-size:0"/></td><td width="37%" style="padding:12px;border: 1px solid #0c0202">WINDEV MOBILE<marker style="font-size:0"/></td><td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6<marker style="font-size:0"/></td><td width="8%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7.79<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A<marker style="font-size:0"/></td><td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4<marker style="font-size:0"/></td></tr><tr><th colspan="5" style="padding:12px;border: 1px solid #0c0202;text-align:center">MOYENNE CUMULATIVE<marker style="font-size:0"/></th><th style="padding:12px;border: 1px solid #0c0202; text-align:center">C<marker style="font-size:0"/></th><th style="padding:12px;border: 1px solid #0c0202; text-align:center">2.3<marker style="font-size:0"/></th></tr></table><table style="margin:0 auto"><tr><td width="100%" style="font-weight: bold;">&nbsp; <div>Legende:</div><div>A: EXCELLENT = 4&nbsp;&nbsp;&nbsp;B:&nbsp;&nbsp;&nbsp;TRES BIEN = 3&nbsp;&nbsp;&nbsp;C: BIEN = 2</div><div>D: PASSABLE = 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E:&nbsp;&nbsp;&nbsp;&nbsp;FAIBLE = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F: ECHEC = 0</div><marker style="font-size:0"/></td></tr><tr><td width="50%"><marker style="font-size:0"/></td><td width="50%" style="text-align:right; font-style:italic;">&nbsp;Conakry, le 16/08/2024<marker style="font-size:0"/></td></tr></table><br><br>&nbsp; <table style="margin:0 auto"><tr><td width="30%" style="font-style:italic;">Le chef de Département<marker style="font-size:0"/></td><td width="30%"><marker style="font-size:0"/></td><td width="37%" style="text-align:right;font-style:italic;">Le chef de service de la scolarité<marker style="font-size:0"/></td></tr></table><br><br><br><br><br><br>&nbsp; <table style="margin:0 auto"><tr><td width="30%" style="font-style:italic;">M. Amadou Tidiane BAH<marker style="font-size:0"/></td><td width="30%"><marker style="font-size:0"/></td><td width="37%" style="text-align:right;font-style:italic;">M. Ousmane DIABY<marker style="font-size:0"/></td></tr></table><div style="width:auto;height:3px;background-color:black;"></div><table style="margin:0 auto; text-align: center;"><tr><td style="font-style: italic;">Université BARACK OBAMA Sonfonia C/RATOMA BP: 953<marker style="font-size:0"/></td></tr><tr><td style="font-style: italic;">Email: univobamaguinea@gmail.com<marker style="font-size:0"/></td></tr><tr><td style="font-style: italic;">web: http//wwww.univ-barackobama.com<marker style="font-size:0"/></td></tr><tr><td style="font-style: italic;">Tel: 622-266-325/666-72-53-63<marker style="font-size:0"/></td></tr></table></div>&nbsp;</div>')
+ 3 APPPATH\Controllers\Home.php(93): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\v_printpdf.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+  <div style="border: 1px solid black;">
+      <table style=" margin: 0 auto;">
+          <tr>
+            <th style="width: 20%;">
+              <img src="http://localhost/printTCPDF/public/UBO.jpg" alt="" width="150">
+            </th>
+            <th style="width: 80%;">
+              <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>
+              <div style="text-align:center;"><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></div>
+              <div style="text-align:center;font-weight:bold;">Ministère de l\'Enseignement, de la Recherche Scientifique et de l\'Innovation</div>
+              <div style="text-align:center;font-weight:bold;">Direction Générale de L\'Enseignement Supérieur</div>
+            </th>
+          </tr>
+        </table><br><br>
+        
+        <!-- Titre, sous titre  -->
+           <div style="width:100%; text-align:center; font-weight:bold; font-size:xx-large; font-style:normal">
+              UNIVERSITE BARACK OBAMA
+            </div>
+          
+            <div style="width:auto;height:3px;background-color:black;"></div>
+          </tr><br>
+      
+          <th style="text-decoration: underline; text-align:center">RELEVE ANNUEL DE NOTES</th>
+          
+       
+        
+        <table style="margin:0 auto;">
+         <tr>
+            <th style="width: 50%;">
+              <p style="font-weight: bold;">DEPARTEMENT: <span>GENIE INFROMATIQUE</span></p>
+              <p style="font-weight: bold;">MATRICULE: <span>B1121 92GI</span></p>
+              <p style="font-weight: bold;">NOM: <span>BALDE</span></p>
+              <p style="font-weight: bold;">PRENOM: <span>BOUBACAR</span></p>
+            </th>
+            <th style="width: 50%;">
+              <p style="font-weight: bold;">NIVEAU: <span>LICENCE 4</span></p>
+              <p style="font-weight: bold;">ANNEE UNIVERSITAIRE: <span>2023-2024</span></p>
+            </th>
+         </tr>
+        </table><br><br>
+        
+        <table style="margin:0 auto; border-collapse: collapse; font-size: 13px;text-align:left;">
+          <thead>
+            <tr>
+              <th width="4%"  rowspan="2" style="border: 1px solid #0c0202">N°</th>
+              <th width="37%" rowspan="2" style="border: 1px solid #0c0202">MATIERES</th>
+              <th width="12%" rowspan="2" style="border: 1px solid #0c0202">SEMESTRE</th>
+              <th width="10%" rowspan="2" style="border: 1px solid #0c0202">CREDITS</th>
+              <th width="8%"  rowspan="2" style="border: 1px solid #0c0202">NOTES</th>
+              <th width="28%" style="text-align:center;border: 1px solid #0c0202" colspan="2">VALEUR</th> <!-- Fusion des colonnes 6 et 7 -->
+            </tr>
+            <tr>
+              <th width="14%" style="border: 1px solid #0c0202">LITTERALE</th>
+              <th width="14%" style="border: 1px solid #0c0202">NUMERIQUE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td width="4%"  style="padding:12px; border: 1px solid #0c0202">1</td>
+              <td width="37%" style="padding:12px; border: 1px solid #0c0202">WINDEV</td>
+              <td width="12%" style="padding:12px; border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="10%" style="padding:12px; border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px; border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="14%" style="padding:12px; border: 1px solid #0c0202; text-align:center">D</td>
+              <td width="14%" style="padding:12px; border: 1px solid #0c0202; text-align:center">1</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">2</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">VB.NET</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">C</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">3</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">PYTHON</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">9</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">0</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">4</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 1</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">9</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">5</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">PHP/MYSQL 1</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">5</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">6</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">DROIT DE L\'INFROMATIQUE</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8.71</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">D</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">1</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">7</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">JAVA SE 2</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">8</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">VB.NET 2</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">8</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">9</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">MACHINE LEARNING</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7.18</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">B</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">3</td>
+            </tr>
+            <tr>
+              <td width="4%"  style="padding:12px;border: 1px solid #0c0202">10</td>
+              <td width="37%" style="padding:12px;border: 1px solid #0c0202">WINDEV MOBILE</td>
+              <td width="12%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="10%" style="padding:12px;border: 1px solid #0c0202; text-align:center">6</td>
+              <td width="8%"  style="padding:12px;border: 1px solid #0c0202; text-align:center">7.79</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">A</td>
+              <td width="14%" style="padding:12px;border: 1px solid #0c0202; text-align:center">4</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+                <th colspan="5" style="padding:12px;border: 1px solid #0c0202;text-align:center">MOYENNE CUMULATIVE</th>
+                <th style="padding:12px;border: 1px solid #0c0202; text-align:center">C</th>
+                <th style="padding:12px;border: 1px solid #0c0202; text-align:center">2.3</th>
+              </tr>
+          </tfoot>
+        </table>
+        
+         <!-- Legende -->
+         <table style="margin:0 auto">
+           <tr>
+              <td width="100%" style="font-weight: bold;">
+                <div>Legende:</div>
+                <div>A: EXCELLENT = 4&nbsp;&nbsp;&nbsp;B:&nbsp;&nbsp;&nbsp;TRES BIEN = 3&nbsp;&nbsp;&nbsp;C:  BIEN = 2</div>
+                <div>D: PASSABLE = 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E:&nbsp;&nbsp;&nbsp;&nbsp;FAIBLE = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F:  ECHEC = 0</div>
+              </td>
+           </tr>
+           <tr>
+              <td width="50%"></td>
+              <td width="50%" style="text-align:right; font-style:italic;"> Conakry, le 16/08/2024</td>
+           </tr>
+         </table><br><br>
+        
+        <table style="margin:0 auto">
+            <tr>
+              <td width="30%" style="font-style:italic;">Le chef de Département</td>
+              <td width="30%"></td>
+              <td width="37%" style="text-align:right;font-style:italic;">Le chef de service de la scolarité</td>
+            </tr>
+         </table><br><br><br><br><br><br>
+        
+         <table style="margin:0 auto">
+          <tr>
+            <td width="30%" style="font-style:italic;">M. Amadou Tidiane BAH</td>
+            <td width="30%"></td>
+            <td width="37%" style="text-align:right;font-style:italic;">M. Ousmane DIABY</td>
+          </tr>
+        </table>
+        
+        <!-- Footer  -->
+        <div style="width:auto;height:3px;background-color:black;"></div>
+        <table style="margin:0 auto; text-align: center;">
+           <tr>
+             <td style="font-style: italic;">Université BARACK OBAMA  Sonfonia C/RATOMA BP: 953</td>
+           </tr>
+           <tr>
+            <td style="font-style: italic;">Email: univobamaguinea@gmail.com</td>
+          </tr>
+          <tr>
+            <td style="font-style: italic;">web: http//wwww.univ-barackobama.com</td>
+          </tr>
+          <tr>
+            <td style="font-style: italic;">Tel: 622-266-325/666-72-53-63</td>
+          </tr>
+        </table>
+  </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\v_printpdf.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

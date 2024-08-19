@@ -7,3 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('print', 'Home::printpdf');
+$routes->get('badges', 'Home::index1');
+$routes->get('printBadges', 'Home::printBadges');

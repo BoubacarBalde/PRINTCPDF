@@ -18,6 +18,12 @@ p{
   font-style: italic;
   height: 2px;
   box-shadow: 5px 10px 5px black;
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  text-align: center;
+  font-family: broadway;
+  
 }
 
 /* <div style="font-size:20px; font-weight:bold; text-align:center">République de guinée</div>

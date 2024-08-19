@@ -1,0 +1,1421 @@
+CRITICAL - 2024-08-18 22:26:34 --> ErrorException: Undefined array key "cols"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16647.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16647): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cols"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16647)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">&nbsp; <table style="border: 1px solid green;display: inline-block;"><tr><td style="width:49%;">&nbsp; <table><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;">MESRS<marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h3>UNIVERSITE BARACK OBAMA</tr></table></td></tr></table></td><td style="width:1%; background-color:green"><marker style="font-size:0"/></td><td style="width:49%;"><marker style="font-size:0"/></td></tr></table></div>&nbsp;</div>')
+ 3 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;">MESRS</td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h3>UNIVERSITE BARACK OBAMA<</h3>/td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:13:42 --> ErrorException: Undefined array key 0
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19235.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19235)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18488): TCPDF->openHTMLTagHandler([...], 1, true)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray><li><ul>Département: <span>GENIE INFROMATIQUE</span></ul></li><marker style="font-size:0"/>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(70.20442595555555, 0, '<cssarray>[]</cssarray><li><ul>Département: <span>GENIE INFROMATIQUE</span></ul></li><marker style="font-size:0"/>', false, '', false, 2, 46.53315277777777, 31.88093982222221, true, 0, true, true, 0, 'T', false)
+ 5 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td><li><ul>Département: <span>GENIE INFROMATIQUE</span></ul></li><marker style="font-size:0"/></td></tr></table>', true, false, true, true, '')
+ 6 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(91.9994491111111, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td><li><ul>Département: <span>GENIE INFROMATIQUE</span></ul></li><marker style="font-size:0"/></td></tr></table>', false, '', false, 2, 12.244916666666665, 14.41097222222222, true, 0, true, true, 0, 'T', false)
+ 7 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td>
+                                <li>
+                                    <ul>Département: <span>GENIE INFROMATIQUE</span></ul>
+                                </li>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:43:36 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">&nbsp; <table style="border: 1px solid green;display: inline-block;"><tr><td style="width:49%;">&nbsp; <table><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table><tr><td>Faculté: <strong>FST</strong><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span></span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr></table></td><td style="width:1%; background-color:green"><marker style="font-size:0"/></td><td style="width:49%;"><marker style="font-size:0"/></td></tr></table></div>&nbsp;</div>')
+ 3 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <tr>
+                                        <td>Faculté: <strong>FST</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:44:16 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">&nbsp; <table style="border: 1px solid green;display: inline-block;"><tr><td style="width:49%;">&nbsp; <table><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span></span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr></table></td><td style="width:1%; background-color:green"><marker style="font-size:0"/></td><td style="width:49%;"><marker style="font-size:0"/></td></tr></table></div>&nbsp;</div>')
+ 3 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <!-- <tr>
+                                        <td>Faculté: <strong>FST</strong></td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:44:26 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">&nbsp; <table style="border: 1px solid green;display: inline-block;"><tr><td style="width:49%;">&nbsp; <table><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span></span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr></table></td></tr></table></td><td style="width:1%; background-color:green"><marker style="font-size:0"/></td><td style="width:49%;"><marker style="font-size:0"/></td></tr></table></div>&nbsp;</div>')
+ 3 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <!-- <tr>
+                                        <td>Faculté: <strong>FST</strong></td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr> -->
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:44:40 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">&nbsp; <table style="border: 1px solid green;display: inline-block;"><tr><td style="width:49%;">&nbsp; <table><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span></span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr></table></td></tr></table></td><td style="width:1%; background-color:green"><marker style="font-size:0"/></td><td style="width:49%;"><marker style="font-size:0"/></td></tr></table></div>&nbsp;</div>')
+ 3 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <!-- <tr>
+                                        <td>Faculté: <strong>FST</strong></td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr> -->
+                                    <!-- <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr> -->
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:44:41 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">&nbsp; <table style="border: 1px solid green;display: inline-block;"><tr><td style="width:49%;">&nbsp; <table><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span></span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr></table></td></tr></table></td><td style="width:1%; background-color:green"><marker style="font-size:0"/></td><td style="width:49%;"><marker style="font-size:0"/></td></tr></table></div>&nbsp;</div>')
+ 3 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <!-- <tr>
+                                        <td>Faculté: <strong>FST</strong></td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr> -->
+                                    <!-- <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr> -->
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:44:52 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">&nbsp; <table style="border: 1px solid green;display: inline-block;"><tr><td style="width:49%;">&nbsp; <table><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span></span><marker style="font-size:0"/></td></tr></table></td></tr></table></td><td style="width:1%; background-color:green"><marker style="font-size:0"/></td><td style="width:49%;"><marker style="font-size:0"/></td></tr></table></div>&nbsp;</div>')
+ 3 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <!-- <tr>
+                                        <td>Faculté: <strong>FST</strong></td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></span></td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr> -->
+                                    <!-- <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr> -->
+                                    <!-- <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr> -->
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:44:53 --> ErrorException: Undefined array key "thead"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 16679.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(16679): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 16679)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17408): TCPDF->getHtmlDomArray('<div style="display:flex; align-items:center; justify-content:center">&nbsp; <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">&nbsp; <table style="border: 1px solid green;display: inline-block;"><tr><td style="width:49%;">&nbsp; <table><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span></span><marker style="font-size:0"/></td></tr></table></td></tr></table></td><td style="width:1%; background-color:green"><marker style="font-size:0"/></td><td style="width:49%;"><marker style="font-size:0"/></td></tr></table></div>&nbsp;</div>')
+ 3 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <!-- <tr>
+                                        <td>Faculté: <strong>FST</strong></td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></span></td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr> -->
+                                    <!-- <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr> -->
+                                    <!-- <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr> -->
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:53:03 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 141, true, 66.42672568888885)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left; width:50%">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(92.21932844444441, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left; width:50%">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', false, '', false, 2, 11.796183333333332, 13.529027777777777, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left; width:50%">
+                                <table>
+                                    <tr>
+                                        <td style="font-weight: bold;">Faculté: <span>FST</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:53:22 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 141, true, 66.42672568888885)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left; width:50%">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(92.21932844444441, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left; width:50%">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', false, '', false, 2, 11.796183333333332, 13.529027777777777, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left; width:50%">
+                                <table>
+                                    <tr>
+                                        <td style="font-weight: bold;">Faculté: <span>FST</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:53:43 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 141, true, 63.73150146666664)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left; width:70%">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(92.21932844444441, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left; width:70%">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', false, '', false, 2, 11.796183333333332, 13.529027777777777, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left; width:70%">
+                                <table>
+                                    <tr>
+                                        <td style="font-weight: bold;">Faculté: <span>FST</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:53:59 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 141, true, 63.73150146666664)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left; width:70%">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(92.21932844444441, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left; width:70%">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', false, '', false, 2, 11.796183333333332, 13.529027777777777, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left; width:70%">
+                                <table>
+                                    <tr>
+                                        <td style="font-weight: bold;">Faculté: <span>FST</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:54:20 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 141, true, 63.73150146666664)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(92.21932844444441, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', false, '', false, 2, 11.796183333333332, 13.529027777777777, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <tr>
+                                        <td style="font-weight: bold;">Faculté: <span>FST</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:54:23 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 141, true, 63.73150146666664)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(92.21932844444441, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', false, '', false, 2, 11.796183333333332, 13.529027777777777, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <tr>
+                                        <td style="font-weight: bold;">Faculté: <span>FST</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:54:43 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 141, true, 63.73150146666664)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(92.21932844444441, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', false, '', false, 2, 11.796183333333332, 13.529027777777777, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <tr>
+                                        <td style="font-weight: bold;">Faculté: <span>FST</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:54:46 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 141, true, 63.73150146666664)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(92.21932844444441, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', false, '', false, 2, 11.796183333333332, 13.529027777777777, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <tr>
+                                        <td style="font-weight: bold;">Faculté: <span>FST</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-18 23:54:52 --> ErrorException: Undefined array key "startcolumn"
+[Method: GET, Route: printBadges]
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 19715.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(19715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "startcolumn"', 'C:\\laragon\\www\\printTCPDF\\vendor\\tecnickcom\\tcpdf\\tcpdf.php', 19715)
+ 2 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18493): TCPDF->closeHTMLTagHandler([...], 141, true, 63.73150146666664)
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(5941): TCPDF->writeHTML('<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', true, false, true, true, '')
+ 4 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18420): TCPDF->MultiCell(92.21932844444441, 0, '<cssarray>[]</cssarray>&nbsp; <table nested="true"><tr><td style="width: 20%;">&nbsp;<img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="width: 80%;">&nbsp; <table nested="true"><tr><td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);">&nbsp;Justice-----</span><span style="color:green">&nbsp;Solidarité</span></h6><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h5>MESRS</h5><marker style="font-size:0"/></td></tr><tr><td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4><marker style="font-size:0"/></td></tr></table></td></tr><tr><td style="width: 110px; height:100px; border:1px solid green;">&nbsp;<img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"><span><marker style="font-size:0"/></span><marker style="font-size:0"/></td><td style="border:1px solid green; text-align: left;">&nbsp; <table nested="true"><tr><td style="font-weight: bold;">Faculté: <span>FST</span><marker style="font-size:0"/></td></tr><tr><td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span><marker style="font-size:0"/></td></tr><tr><td>N° Mat: <span>B1121 59GI</span><marker style="font-size:0"/></td></tr><tr><td>Nom: <span>BALDE</span><marker style="font-size:0"/></td></tr><tr><td>Prénom: <span>BOUBCAR</span><marker style="font-size:0"/></td></tr><tr><td>Niveau: <span>LICENCE 4</span><marker style="font-size:0"/></td></tr><tr><td>Année Universitaire: <span>2023-2024</span><marker style="font-size:0"/></td></tr></table></td></tr><tr></tr></table>', false, '', false, 2, 11.796183333333332, 13.529027777777777, true, 0, true, true, 0, 'T', false)
+ 5 APPPATH\Controllers\Home.php(143): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\printBagdes.php -->
+<div style="display:flex; align-items:center; justify-content:center">
+    <div style="border: 1px solid green;padding:1%;background-color:rgb(255, 252, 252);width: 100%;">
+        <table style="border: 1px solid green;display: inline-block;">
+            <tr>
+                <td style="width:49%;">
+                    <table>
+                        <tr>
+                            <td style="width: 20%;">
+                                <img src="http://localhost/printTCPDF/public/UBO.jpg" alt=""> 
+                            </td>
+                            <td style="width: 80%;">
+                                <table>
+                                    <tr>
+                                      <td style="font-size:20px; font-weight:bold; text-align:center"><h5>République de guinée</h5></td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:center;"><h6><span style="color: red">Travail-----</span><span style="color: rgb(249, 186, 11);"> Justice-----</span><span style="color:green"> Solidarité</span></h6></td>
+                                    </tr>
+                                    <tr>
+                                     <td style="text-align:center;font-weight:bold;"><h5>MESRS</h5></td>
+                                   </tr>
+                                   <tr>
+                                    <td style="text-align:center;font-weight:bold;"><h4>UNIVERSITE BARACK OBAMA</h4></td>
+                                  </tr>
+                                 </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 110px; height:100px; border:1px solid green;">
+                                <img src="http://localhost/printTCPDF/public/photo.jpg" alt="" style="width: 100px; height:100px; border:1px solid green;"> 
+                            </td>
+                            <td style="border:1px solid green; text-align: left;">
+                                <table>
+                                    <tr>
+                                        <td style="font-weight: bold;">Faculté: <span>FST</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Département: <span style="font-style:italic;">GENIE INFROMATIQUE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>N° Mat: <span>B1121 59GI</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nom: <span>BALDE</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prénom: <span>BOUBCAR</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau: <span>LICENCE 4</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Année Universitaire: <span>2023-2024</span></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:1%; background-color:green"></td>
+                <td style="width:49%;"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\printBagdes.php -->
+', true, false, true, false, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->printBadges()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

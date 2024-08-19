@@ -12,7 +12,7 @@
 
 <div style="display:flex; align-items:center; justify-content:center">
     <div style="border: 1px solid black; box-shadow:0px 0px 5px black; padding:1%;background-color:rgb(255, 252, 252);">
-        <table style=" margin: 0 auto;">
+        <table style="margin: 0 auto;">
             <tr>
               <th style="width: 20%;">
                 <img src="<?= base_url('UBO.jpg')?>" alt="" width="150">
